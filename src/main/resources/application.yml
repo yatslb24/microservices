@@ -1,0 +1,19 @@
+server:
+  port: 9002
+--- 
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/userdb
+    username: root
+    password: mysql
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+#---
+#logging:
+#  level:
+#    root: ERROR
+#   org.springframework.web: INFO
+#    com.howtodoinjava: DEBUG
+#    org.hibernate: ERROR
